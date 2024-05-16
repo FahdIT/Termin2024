@@ -1,0 +1,260 @@
+body {
+    font-family: 'Century Gothic', sans-serif; /* Use Century Gothic font */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    min-height: 100vh; /* Ensure full viewport height */
+    background-color: #f0f0f0; /* Set background color */
+}
+
+.navbar {
+    background-color: #333; /* Set navbar background color */
+    color: #fff; /* Set text color */
+    padding: 10px; /* Add padding */
+    width: 100%; /* Set navbar width */
+    position: fixed; /* Fixed positioning */
+    top: 0; /* Place at the top */
+    
+}
+
+.navbar a {
+    color: #fff; /* Set link color */
+    margin-right: 10px; /* Add right margin between links */
+    text-decoration: none; /* Remove underline */
+    margin-left: 10px;
+}
+
+.navbar h1 {
+    color: #fff; /* Set link color */
+    margin-right: 10px; /* Add right margin between links */
+    text-decoration: none; /* Remove underline */
+    margin-left: 10px;
+}
+
+
+.game-container {
+    text-align: center; /* Center align the game content */
+    background-color: #fff; /* Set background color */
+    padding: 20px; /* Add padding */
+    border-radius: 10px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+    max-width: 600px; /* Limit maximum width */
+}
+
+.game-title {
+    font-weight: bold; /* Make game title bold */
+}
+
+.tutorial {
+    margin-top: 20px; /* Add top margin */
+}
+
+.tutorial-title {
+    font-weight: bold; /* Make tutorial title bold */
+}
+
+.button-container {
+    margin-top: 20px; /* Add top margin */
+    padding: 20px;
+}
+
+
+.container {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    
+}
+
+.input-box {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.LoginButton {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.LoginButton:hover {
+    background-color: #000000;
+}
+
+.error {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.register-link {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+/* Specific styles for login page */
+.login-container {
+    width: 100%;
+    max-width: 400px;
+}
+
+.login-content {
+    padding: 40px;
+}
+
+/* Specific styles for registration page */
+.registration-container {
+    width: 100%;
+    max-width: 500px;
+}
+
+.registration-content {
+    padding: 40px;
+}
+
+/* Button styles for index.php */
+#buttonContainer button {
+    margin: 10px ;
+    padding: 12px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#buttonContainer button:hover {
+    background-color: #141414;
+}
+
+
+
+.logout-form {
+    margin: 0;
+    display: flex;
+    align-items: center; /* Align items vertically */
+}
+
+.logout-button {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-right: 10px; /* Add margin to separate from other buttons */
+}
+
+.logout-button:hover {
+    background-color: #c82333;
+}
+
+.game-container {
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+.game-title {
+    margin-top: 0;
+}
+
+.tutorial-title {
+    margin-top: 0;
+}
+
+.tutorial-text {
+    margin-bottom: 20px;
+}
+
+.save-game {
+    margin-top: 20px;
+}
+
+#saveButton {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#saveButton:hover {
+    background-color: #000000;
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.introduction-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.introduction-container .game-title {
+    color: #333;
+    text-align: center;
+}
+
+.introduction-container .tutorial {
+    margin-top: 20px;
+}
+
+.introduction-container .tutorial-title {
+    color: #000000;
+    font-size: 24px;
+}
+
+.introduction-container .tutorial-text {
+    color: #000000;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.introduction-container .tutorial-steps {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.introduction-container .tutorial-steps li {
+    color: #000000;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.game-container {
+    text-align: center;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
